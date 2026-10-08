@@ -24,7 +24,7 @@ npx serve schoolhub-lite
 The data layer (`store.js`) has no DOM code and is tested with Node's built-in test runner:
 
 ```sh
-node --test schoolhub-lite/
+node --test schoolhub-lite/store.test.js
 ```
 
 ## Files
